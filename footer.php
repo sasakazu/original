@@ -1,7 +1,7 @@
 
 <footer class="">
   <p>
-    ©️sasakura.company
+  footer
   </p>
 </footer>
 
