@@ -1,0 +1,62 @@
+
+
+/* サイトタイトル */
+
+.site-title a {
+  float: left;
+  padding: 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 900;
+  border-right: 1px solid #DDD;
+
+}
+
+
+
+/* ナビゲーションメニュー */
+
+.menu {
+    list-style: none;
+    overflow: hidden;
+
+}
+
+.menu li {
+    float: left;
+
+}
+
+.menu li a {
+    display: block;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    border-right: 1px solid #ddd;
+    position: relative;
+}
+
+
+.menu li a:hover {
+    background: #EEE;
+
+}
+
+
+/* submenu */
+
+.sub-menu {
+  display: none;
+}
+
+.sub-menu li a {
+  border-right: none;
+  position: absolute;
+  padding: 25px;
+
+}
+
+.menu-item-has-children:hover .sub-menu {
+  display: block;
+}
