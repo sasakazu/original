@@ -1,0 +1,30 @@
+
+/* ba-inner */
+
+.bg-inner {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* image */
+.top-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.top-image h2 {
+  font-size: 50px;
+  padding-top: 250px;
+  padding-bottom: 14px;
+  text-align: center;
+  color: #FFF;
+
+}
+
+.top-image p {
+  padding-bottom: 200px;
+  color: #FFF;
+  text-align: center;
+
+
+}
